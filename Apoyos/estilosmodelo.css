@@ -128,8 +128,18 @@ section { padding: 120px 0; }
     min-height: 700px;
     color: #ffffff;
 }
+#cienciasbackground {
+    background-image: url("imagenes/tecnology.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
 
 #hero p {
+    color: #ffffff;
+}
+#cienciasbackground p {
     color: #ffffff;
 }
 
@@ -220,6 +230,7 @@ footer .list-inline .list-inline-item {
 
 @media (min-width: 992px) and (max-width: 1199.98px) { }
 
+<<<<<<< HEAD:Apoyos/estilosmodelo.css
 @media (min-width: 1200px) { }
 
 
@@ -232,3 +243,13 @@ footer .list-inline .list-inline-item {
 
 
 
+=======
+@media (min-width: 1200px){}
+
+.article .contenedor{
+    display: grid;
+}
+.article_columna{
+    margin:5px;
+}
+>>>>>>> c0e33252226ec80269c96eaba9603c02a3e2fbc2:estilos.css
