@@ -1,9 +1,21 @@
+/*LAYOUT NO TOCAR*/
 .cabecera{
-    background-image: url("img/banner.png");
+    background-image: url('img/banner.png');
+    
 }
 
 
-
+.navegador{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: lighter;
+    
+}
+.navegador li a:before{
+    content:'|';
+    color: #c65039;
+    padding-right: 10px;
+}
 
 
 :root {
@@ -41,9 +53,8 @@ h5 { margin-bottom: 0px; }
 p {
     font-size: 18px;
     color: #1a1a1a;
-    opacity: .5;
-    line-height: 1.8;
-    margin-bottom: 0px;
+    line-height: 1.5;
+    margin-bottom: auto;
 }
 
 a:hover { text-decoration: none; }
@@ -271,10 +282,111 @@ footer .list-inline .list-inline-item {
       }
   }
 
+/*ESTILOS PARA EL FOOTER*/
+footer{
+    padding-bottom: 0px;
+}
 
+.parrafo{
+    color: #999;
+    line-height: 25px;
+}
+.subtitle2,.subtitle3{
+    color: #fff;
+}
+.subtitle2{
+    font-size: 18px;
+}
+.footer-top{
+    background-color: #111;
+    padding: 70px 15px 15px 15px;
+}
+.segment-one h3{
+    font-family: Courgette;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
 
+.segment-two h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    content:'|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.segment-three h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-three h2:before{
+    content:'|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+.segment-four h2{
+    color: #fff;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.segment-four h2:before{
+    content:'|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-four form input[type=submit]{
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-bottom-text{
+    text-align: center;
+    background: black;
+    line-height: 75px;
+}
 
-
-
-
-
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .md-mb-30{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .sm-bm-30{
+        margin-bottom: 30px;
+    }
+    .footer-top{
+        padding:50px 0;
+    }
+}

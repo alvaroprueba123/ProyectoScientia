@@ -20,6 +20,7 @@
 </head>
  
   <body>
+      
     <!--LAYOUT DE LA PAGINA NO TOCAR-->
     <header class="cabecera">
         <nav class="navbar navbar-expand-lg fixed-top">
@@ -27,27 +28,51 @@
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <img src="img/menu.svg">
+                    <img src="img/" style="width: 50px; height: 50px;">
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto navegador">
                         <li class="nav-item">
-                            <a class="nav-link" href="#hero">Home <span class="icon-arrow-open"></span></a>
+                            <a class="nav-link" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-link" href="#">Entrevistas</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li><li class="nav-item">
-                            <a class="nav-link" href="">Login</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ciencias</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Comunicacion cientifica</a>
+                                <a class="dropdown-item" href="#">Review</a>
+                                <a class="dropdown-item" href="#">Becas e intercambios</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Actualidad</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Tecnologia</a>
+                                <a class="dropdown-item" href="#">Economia</a>
+                                <a class="dropdown-item" href="#">Mundo</a>
+                                <a class="dropdown-item" href="#">Cultura</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Audiovisuales</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Fotografia</a>
+                                <a class="dropdown-item" href="#">Video</a>
+                                <a class="dropdown-item" href="#">Podcast</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+
+
+
 
 
     <!--SECCION DEL CARRUSEL, RENOVAR CONTENIDO, USAR MISMO TAMAÑO DE FOTO-->
@@ -78,7 +103,7 @@
                 <div class="item">
                     <img src="img/lima.jpg" alt="Chicago" style="width:100%;">
                     <div class="carousel-caption">
-                        <h3>Chicago</h3>
+                        <h3>Lima</h3>
                         <P style="color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Nihil illum iusto distinctio consequatur sunt porro vitae dignissimos et perspiciatis, 
                             cumque voluptatum eos saepe delectus praesentium maiores dolore, sed ut asperiores?
@@ -89,7 +114,7 @@
                 <div class="item">
                     <img src="img/bosque.jpg" alt="New York" style="width:100%;">
                     <div class="carousel-caption">
-                        <h3>New York</h3>
+                        <h3>Bosque</h3>
                         <P style="color:black">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Nihil illum iusto distinctio consequatur sunt porro vitae dignissimos et perspiciatis, 
                             cumque voluptatum eos saepe delectus praesentium maiores dolore, sed ut asperiores?
@@ -115,7 +140,8 @@
 
 
     <section class="personas">
-        <h2 class="mt-5" style="text-align: center;">Secciones mas buscadas</h2>
+        <h3 class="mt-5" style="text-align: center;">Secciones mas buscadas</h3>
+        <br>
         <div class="contenedor">
             
                 <article class="persona__columna">
@@ -144,7 +170,7 @@
                 </article>
 
                 <article class="persona__columna">
-                    <img src="img/Comunicación_científica.png">
+                    <img src="img/Becas_pasantías.png">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Similique eligendi nihil numquam deleniti vitae dolores minus, 
                         voluptatem accusantium maiores, pariatur earum quis placeat, 
@@ -200,70 +226,7 @@
 
 
 
-
-
 <!--
-        <section id="bosque" >
-            <div class="container-fluid">
-                <div class="content-center">
-
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="bosque-container">
-                            <div class="bosque-details">
-                                <a href="#">
-                                    <h2>Keep Calm and Eat</h2>
-                                </a>
-                                <a href="#">
-                                    <p>— App/Digital Product</p>
-                                </a>
-                            </div>
-                            <img src="img/Entrevistas.png" class="img-fluid" alt="bosque 01">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="bosque-container">
-                            <div class="bosque-details">
-                                <a href="#">
-                                    <h2>New Horizons</h2>
-                                </a>
-                                <a href="#">
-                                    <p>— App/Digital Product</p>
-                                </a>
-                            </div>
-                            <img src="img/Comunicación_científica.png" class="img-fluid" alt="bosque 02">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="bosque-container">
-                            <div class="bosque-details">
-                                <a href="#">
-                                    <h2>Urban Oasis</h2>
-                                </a>
-                                <a href="#">
-                                    <p>— App/Digital Product</p>
-                                </a>
-                            </div>
-                            <img src="img/Audiovisuales.png" class="img-fluid" alt="bosque 03">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="bosque-container">
-                            <div class="bosque-details">
-                                <a href="#">
-                                    <h2>No Speed Limits</h2>
-                                </a>
-                                <a href="#">
-                                    <p>— App/Digital Product</p>
-                                </a>
-                            </div>
-                            <img src="img/Actualidad.png" class="img-fluid" alt="bosque 04">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>        
 
         <section id="contact" class="bgLightGrey">
             <div class="container">
@@ -301,24 +264,61 @@
         </section>
 -->
 
-        <footer class="bgDark">
-            <div class="container">
-                <img src="img/logo-light.svg" class="logo-brand" alt="logo">
-                <ul class="list-inline">
-                    <li class="list-inline-item footer-menu"><a href="#">Home</a></li>
-                    <li class="list-inline-item footer-menu"><a href="#">bosque</a></li>
-                    <li class="list-inline-item footer-menu"><a href="#">Contact</a></li>
-                </ul>
-                <ul class="list-inline">
-                    
-                    <li class="list-inline-item"><a href="https://www.instagram.com/?hl=es-la"><img src="img" class="img-fluid"></a></li>
-                    <li class="list-inline-item"><a href="https://twitter.com/explore"><img src="img/instagram.svg" class="img-fluid"></a></li>
-                    <li class="list-inline-item"><a href="https://www.youtube.com/?hl=es-419&gl=PE"><img src="" class="img-fluid"></a></li>
-                    <li class="list-inline-item"><a href="https://es-la.facebook.com/"><img src="img/facebook.svg" class="img-fluid"></a></li>
-                </ul>
-                <small>©2020 Derechos Reservados.</small>
+<!--PIE DE PAGINA NO TOCAR-->
+    <footer>
+        <div class="footer-top">
+            <div class="containerfooter">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+                        <h3 class="subtitle3">asdas</h3>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Alias at libero impedit tempora eius quibusdam? 
+                            Quo ipsam voluptatem itaque debitis hic voluptates 
+                            iste quod rem quas, asperiores veniam numquam velit.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-bm-30">
+                        <h2 class="subtitle2">links</h2>
+                        <ul>
+                            <li><a href="#">asd</a></li>
+                            <li><a href="#">asdasd</a></li>
+                            <li><a href="#">asdasd</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-bm-30">
+                        <h2 class="subtitle2">follow </h2>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Doloremque corporis optio quod sed iusto deleniti 
+                            ut velit molestias quia architecto commodi impedit a 
+                            necessitatibus accusamus aspernatur enim, neque 
+                            reprehenderit mollitia.</p>
+                            <br>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four sm-bm-30">
+                        <h2 class="subtitle2">asidpasjdpas</h2>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Doloremque corporis optio quod sed iusto deleniti 
+                            ut velit molestias quia architecto commodi impedit a 
+                            necessitatibus accusamus aspernatur enim, neque 
+                            reprehenderit mollitia.</p>
+                            <br>
+                        <form action="">
+                            <input type="text" value="ingrese su correo" style="color: black;">
+                            <input type="submit" value="subscribirse">
+                        </form>
+                        
+                    </div>
+
+                </div>
             </div>
-        </footer>
+        </div>
+        <p class="footer-bottom-text">Derechos reservados Scientia 2020</p>
+    </footer>
+
+
 
 
 
