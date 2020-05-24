@@ -1,0 +1,182 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+}
+nav a {
+	text-align: center;
+	padding: 15px;
+	letter-spacing: :1px;
+	border-bottom: 3px;
+	
+}
+
+#logo {
+	text-align: center;
+	padding:0;
+	margin: 1em;
+	border: 2px solid #d9d9d9;
+	font-size: 50px;
+	line-height: 1px;
+
+}
+
+
+
+
+.nav{
+	justify-content: center;
+	background: #d9d9d9;
+
+}
+.nav-link {
+
+	display: inline-block;
+	text-align: center;
+	padding: auto;
+	margin: 2em;
+	color: #000;
+	
+
+}
+	
+@media  {
+    .bloqueimg{
+      width: : 100%;  
+    }
+    .contenido img{
+       max-width: 100%;
+    }
+    .imgarticle img{
+        width: 100%;
+        height: auto;
+  
+    }
+    img{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {  
+     .contenido{
+    width: 100%;
+
+} 
+.imgarticle img{
+    width: 100%;
+    height: auto;
+    
+}
+img{
+    max-width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+      .contenido{
+    width: 100%;
+    height: auto;
+ }
+ .imgarticle img{
+    width: 100%;
+    height: auto;
+
+}
+img{
+    width:100%;
+    float: left;
+}
+  }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .contenido{
+        width: 70%;
+        height: auto;
+     }  
+    
+    .imgarticle img{
+        width: 100%;
+        height: auto;
+  
+    }
+    .contenido img{
+        max-width: 100%;
+     }
+    img{
+        width: 100%;
+       
+      
+    } 
+  
+}
+
+@media (min-width: 1200px) {
+    body{
+        width: 70%;
+        margin: auto;
+    }
+    #contenido{    width:70%;    height: auto;}  
+.imgarticle{
+    width: 20%;
+    height: auto;
+   
+}
+
+ img{
+    width: 20%;
+    float: left;
+
+  
+}
+}
+.bloqueimg{
+    height:350px;
+    width: 100%;
+}
+.bloqueimg img{
+   width: 100%;
+    height: 350px;
+   
+}
+
+h1{    text-align: center;}
+div h1{    border: solid #d6d5d2;}
+
+
+
+article h1{    text-align: center;    border: none;}   
+* {
+    box-sizing: border-box;
+
+
+}
+section{
+    background-color: #D6D5D2;
+       margin-top: 30px;
+    margin-bottom: 30px;
+ 
+    
+   
+}
+.nexto{
+    width: 80%;
+}
+
+}
+#body article{
+    display:inline;
+}
+.texaimg{
+    text-align:justify;
+    margin: 15px;
+   }   
+
+   #footer {
+    background: #8DA1B5; 
+
+}
+
+
