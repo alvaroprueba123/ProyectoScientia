@@ -128,20 +128,12 @@ section { padding: 120px 0; }
     min-height: 700px;
     color: #ffffff;
 }
-#cienciasbackground {
-    background-image: url("imagenes/tecnology.jpg");
-    background-size: cover;
-    padding-top: 90px;
-    min-height: 700px;
-    color: #ffffff;
-}
+    
 
 #hero p {
     color: #ffffff;
 }
-#cienciasbackground p {
-    color: #ffffff;
-}
+
 
 /* //////////////
    bosque
@@ -232,9 +224,3 @@ footer .list-inline .list-inline-item {
 
 @media (min-width: 1200px){}
 
-.article .contenedor{
-    display: grid;
-}
-.article_columna{
-    margin:5px;
-}
