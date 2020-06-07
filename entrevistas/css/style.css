@@ -89,7 +89,9 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 color: white;
 }
 
-
+.card {
+    margin-bottom: 3%;
+}
 
 .social {
     border: 1px solid red;
