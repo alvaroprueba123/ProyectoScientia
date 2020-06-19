@@ -1,0 +1,77 @@
+.logo {
+    max-width: 300px;
+    max-height: 80px;
+}
+
+#navbars {
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#events_section{
+    margin-top: 80px;
+}
+
+#main .carousel-inner  img {
+    max-height: 70vh;
+    object-fit: cover;
+    
+}
+#main .carousel-inner  img {    
+    max-height: 70vh;
+    object-fit: cover;
+    
+}
+
+#footer {
+    background: #a8ff78;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+}
+
+#carousel {
+    position: relative;
+
+}
+.our {
+    margin-top: 50px;
+    
+}
+.title-our {
+    margin-bottom: 40px;
+}
+.lista-respaldo {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.lista-respaldo ul {
+    display: none;
+}
+#footer_part2 {
+    background-color: black;
+    color: white;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+.tech_logo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
