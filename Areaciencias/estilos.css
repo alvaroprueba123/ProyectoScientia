@@ -1,3 +1,7 @@
+
+
+
+
 /*Bloques */
 .contenedor {
 	width: 60%;
@@ -193,19 +197,30 @@ div h1 {
     background-size: 100% 200px;
     
     min-height: 200px;
-    color: black;
+   
    
 
    
   }
  #asidetitle{
 float: right;
+text-align: center;
+padding-top: 20px;
+color: black;
  }
  #title-prin{
      float: left;
+     text-align: center;
+     width: 50%;
+     padding-top: 20px;
+     font-size: 36pt;
+     font-weight: bold;
  }
  .titleblock{
-     max-width: 60%;
-     height: 50%;
-     background-color: black;
+     max-width: 600px;
+     height: 120px;
+     padding-left: 60px;
+     padding-top: 30px;
+     font-weight: bold;
+     color: black;
  }
