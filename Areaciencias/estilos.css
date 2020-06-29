@@ -187,4 +187,25 @@ div h1 {
   font-weight: bold;
   color: black;
   }
-  
+  /* Estilos para el nav con imagen */
+  #bgimg{
+    background-image: url("imagenes/img_2.png");
+    background-size: 100% 200px;
+    
+    min-height: 200px;
+    color: black;
+   
+
+   
+  }
+ #asidetitle{
+float: right;
+ }
+ #title-prin{
+     float: left;
+ }
+ .titleblock{
+     max-width: 60%;
+     height: 50%;
+     background-color: black;
+ }
