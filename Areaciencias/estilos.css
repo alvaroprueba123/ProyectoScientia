@@ -299,8 +299,16 @@ font-family: Merriweather;
      padding-left: 20px;
      padding-top: 20px;
      text-align: justify;
+     font-size: 18pt;
  }
  .bg-contenedor{
      min-width: 100%;
      height:auto;
+ }
+ #title-aside{
+    font-size: ;
+    
+    font-weight: bolder;
+    font-family: ;
+    
  }
