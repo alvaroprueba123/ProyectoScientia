@@ -1,0 +1,150 @@
+.logo {
+    max-width: 300px;
+    max-height: 120px;
+}
+
+#events_section{
+    margin-top: 80px;
+}
+
+#main .carousel-inner  img {
+    max-height: 70vh;
+    object-fit: cover;
+    
+}
+#main .carousel-inner  img {    
+    max-height: 70vh;
+    object-fit: cover;
+    
+}
+
+
+
+#carousel {
+    position: relative;
+
+}
+.icons ul {
+    text-decoration: none;
+    list-style: none;
+    display:  flex;
+   list-style: none;
+   justify-content: right   ;
+   align-items: center;
+}
+.icons ul li {
+    margin-right: 10px;
+}
+
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+
+
+
+.actualidad-info {
+    margin-top: 80px;
+}
+
+.cards-ciencia-info {
+    width: 300px;
+    height: 420px;
+    margin-bottom: 50px;
+}
+
+.ciencia-info {
+    margin-top: 100px;
+}
+
+.separator-horizontal {
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.button-articucles {
+    border-radius: 100px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid #000;
+    animation: none;
+    margin-bottom: 40px;
+}
+.button-articucles a {
+    color: black;
+    font-family: source sans pro,Arial,sans-serif;
+   
+}
+
+
+.separator-section {
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.icon-author {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+   
+}
+
+
+.separator-author {
+    width: 100%;
+    border-bottom: 0.3px solid black;
+   margin-top: 20px;
+   margin-bottom: 20px;
+    
+}
+
+
+.icons-social {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.icons-social ul li {
+    list-style: none;
+    display: inline;
+    
+    
+}
+
+
+.space-icon i{
+    width: 100%;
+    height: 100%;
+}
+
+span {
+    width: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: #000;
+    color: white;
+    padding: 50px;
+}
+
+.respaldos ul li {
+    list-style: none;
+}
