@@ -13,27 +13,27 @@
 
     <div class="container"  style="background-image: url('actualidad.JPG'); max-height:100%; max-width: 100%; margin:auto; display:block;">
 
-        <div class="row">
-            <div class="col-sm" style="display: table; height:200px;">
+      <div class="row">
+              <div class="col-sm" style="display: table; height:200px;">
 
-            </div>
+              </div>
 
-            <div class="col-sm" style="display: table;height:200px;">
-                <a href="actualidad.php" style="color:black; text-decoration-line: none; display: table-cell; vertical-align: middle;" ><h3 >Actualidad</h3></a>
-                <br>
-                <a href="actualidad.php" style="color:black; text-decoration-line: none;" ><h1 >Cultura</h1></a>
-            
-            </div>
+              <div class="col-sm" style="display: table;height:200px;">
+                  <a href="actualidad.php" style="color:black; text-decoration-line: none; display: table-cell; vertical-align: middle;" ><h3 >Actualidad</h3></a>
+                  <br>
+                  <a href="actualidad.php" style="color:black; text-decoration-line: none;" ><h1 >Cultura</h1></a>
+              
+              </div>
 
-            <div class="col-sm-4" >
-                <a href="cultura.php" style="color:#FFFF; text-decoration-line: none;"><h5>Cultura</h5></a>
-                <br>
-                <a href="economia.php" style="color:#FFFF; text-decoration-line: none;"><h5>Economia</h5></a>
-                <br>
-                <a href="mundo.php" style="color:#FFFF; text-decoration-line: none;"><h5>Mundo</h5></a>
-                <br>
-                <a href="tecnologia.php" style="color:#FFFF; text-decoration-line: none;"><h5>Tecnologia</h5></a>
-            </div>
+              <div class="col-sm-4" >
+                  <a href="cultura.php" style="color:#FFFF; text-decoration-line: none;"><h5>Cultura</h5></a>
+                  <br>
+                  <a href="economia.php" style="color:#FFFF; text-decoration-line: none;"><h5>Economia</h5></a>
+                  <br>
+                  <a href="mundo.php" style="color:#FFFF; text-decoration-line: none;"><h5>Mundo</h5></a>
+                  <br>
+                  <a href="tecnologia.php" style="color:#FFFF; text-decoration-line: none;"><h5>Tecnologia</h5></a>
+              </div>
             
 
 
