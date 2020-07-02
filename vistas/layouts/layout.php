@@ -78,7 +78,7 @@
     <header>
       <div class="fixed-top mb-5 pb-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbars">
-          <a class="navbar-brand" href="#">SCIENTIA</a>
+          <a class="navbar-brand" href="../index/inicio.php">SCIENTIA</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -86,19 +86,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="./index.htm">Entrevistas <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="entrevista.php">Entrevistas <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="./index.htm">Ciencias <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="ciencias.php">Ciencias <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="./index.htm">Actualidad<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../actualidad/actualidad.php">Actualidad<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="./index.htm">Audivisual<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="audivisual.php">Audivisual<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="./index.htm">Nosotros<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="nosotros.php">Nosotros<span class="sr-only">(current)</span></a>
               </li>
             </ul>
           </div>

@@ -18,8 +18,8 @@
 
               </div>
 
-              <div class="col-sm" style="display: table;height:200px;">
-                  <a href="actualidad.php" style="color:black; text-decoration-line: none; display: table-cell; vertical-align: middle;" ><h3 >Actualidad</h3></a>
+              <div class="col-sm" style="display: table; height:200px; padding-top:20px;">
+                  <a href="actualidad.php" style="color:black; text-decoration-line: none; " ><h3 >Actualidad</h3></a>
                   <br>
                   <a href="actualidad.php" style="color:black; text-decoration-line: none;" ><h1 >Cultura</h1></a>
               
