@@ -94,8 +94,8 @@ nav{
 @media screen and (max-width: 767px){
     .contenedor{
         width: 100%;
-        height: auto    
-        margin-left: 0px;
+        height: auto ;   
+        margin-left:10px;
     } 
      #notice-article{
         height: auto;
@@ -131,9 +131,12 @@ nav{
         
  }
 #asidetitle{
+    width: 100%;
+    float:none;
+}
+#asidetitle2{
     max-width: 100%;
-    padding-top:auto;
-            float:none;
+    float:none;
 }
 #title-prin{
     min-width: 100%;
@@ -441,4 +444,11 @@ font-family: Merriweather;
      box-sizing: border-box;
      background-color: #ECE9E7;
      margin-bottom: 50px;
+ }
+
+ .bgcontainer{
+     width: 100%;
+     height: auto;
+     overflow: hidden;
+     margin-bottom: 10px;
  }
