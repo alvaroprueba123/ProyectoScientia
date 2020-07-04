@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ciencias</title>
+    <title>Review </title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
@@ -14,66 +14,63 @@
 </head>
 <body>
   
-  <div class="bgcontainer">
-    <!--nav bar responsive -->
-    <!--Parte del nav de actualidad -->
-    <div>
-    <section>
+<?php
+    include('../layouts/layout.php');
+?>
+<section>
 
-    <div class="container"  style="background-image: url('actualidad.JPG'); max-height:100%; max-width: 100%; margin:auto; display:block;">
-        <div class="row">
-            <div class="col-sm" style="display: table;height:200px;">
-                <a href="actualidad.php" style="color:black; text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="margin-left:50%">Actualidad</h1></a>
-            </div>
-            <div class="col-sm" >
-
-                <a href="cultura.php" style="color:#FFFF; text-decoration-line: none;"><h5>Cultura</h5></a>
-                <br>
-                <a href="economia.php" style="color:#FFFF; text-decoration-line: none;"><h5>Economia</h5></a>
-                <br>
-                <a href="mundo.php" style="color:#FFFF; text-decoration-line: none;"><h5>Mundo</h5></a>
-                <br>
-                <a href="tecnologia.php" style="color:#FFFF; text-decoration-line: none;"><h5>Tecnologia</h5></a>
-
-            </div>
+    <div class="container"  style="background-image: url('imagenes/noticia3.JPG'); max-height:100%; max-width: 100%; margin:auto; display:block;">
+    <div class="row">
+         <div class="col-sm" >
+          </div>
+        <div class="col-sm" style="display: table;height:200px;">
+            <a href="ciencais.php" style="color:black; text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1>Ciencias</h1></a>
         </div>
+        <div class="col-sm" >
+    
+            <a href="review.php" style="color:#FFFF; text-decoration-line: none;"><h5>Review</h5></a>
+            <br>
+            <a href="becas.php" style="color:#FFFF; text-decoration-line: none;"><h5>Becas e Intercambios</h5></a>
+            <br>
+            <a href="Cientifica.php" style="color:#FFFF; text-decoration-line: none;"><h5>Comunidad Cientifica</h5></a>
+            
+
+        </div>
+    </div>
     </div>
 
 
 </section>
-  
-    </div>
-
-
-    <!--Seccion de Articulos -->
-    <div class="bgcontainer">
+  <div class="bgcontainer">
+  <div class="bgcontainer">
       <div class="contenedor">
-        <div class="article_bloq">
-          <div id="title-article">
-            ENTRE DISTOPÍAS Y REALIDADES
-          </div>
-          <div id="author-article">
-            Autor
-          </div>
-          <div class="article_bloq2">
-            <div id="bloqueimg">
-              <img src="../img/TECNOLOGÍA/img1.png">
+
+          <div class="article_bloq">
+            <div id="title-article">
+              ENTRE DISTOPÍAS Y REALIDADES
             </div>
-            <div id="notice-article">
-              <p>
-                Distopía: Representación ficticia de una sociedad futura de características negativas causantes de la
-                alienación humana.
-                A lo largo de los años, la literatura ha tocado a las distopías como un tema recurrente en los momentos
-                de crisis sociales, revoluciones o grandes cambios a lo largo de la historia...
-                <button>
-                  Ver mas
-                </button>
-              </p>
+            <div id="author-article">
+              Autor
+            </div>
+            <div class="article_bloq2">
+              <div id="bloqueimg">
+                <img src="imagenes/noticia3.jpg">
+              </div>
+              <div id="notice-article">
+                <p>
+                  Distopía: Representación ficticia de una sociedad futura de características negativas causantes de la
+                  alienación humana.
+                  A lo largo de los años, la literatura ha tocado a las distopías como un tema recurrente en los
+                  momentos de crisis sociales, revoluciones o grandes cambios a lo largo de la historia...
+                  <button>
+                  <a href="noticia1.php">
+                    Ver mas 
+                  </a>
+                  </button>
+                </p>
+              </div>
 
             </div>
-
-
-
           </div>
           <div class="article_bloq">
             <div id="title-article">
@@ -153,7 +150,7 @@
 
             </div>
           </div>
-        </div>
+       
       </div>
 
       <aside id="aside-r">
@@ -191,7 +188,24 @@
       </aside>
     </div>
   
+  
   </div>
+  <style>
+	footer {
+    width: 100%;
+    background-color: #000;
+    color: white;
+	padding: 50px;
+}
+	.logo {
+    max-width: 300px;
+    max-height: 120px;
+}
+</style>
+<?php
+    include('../layouts/footer.php');
+?>
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
