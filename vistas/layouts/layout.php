@@ -43,6 +43,8 @@
     }
     $fecha=date('d').', '.$mes.' del '.date('Y');
     echo $fecha;
+
+    echo ('asdñasdñlksa');
 ?>
 
   <head>
@@ -54,7 +56,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./fonts/style.css">
-    <title>Scientia | Inicio</title>
+    
   </head>
 
 
@@ -73,8 +75,6 @@
                 
             </div>
         </div>
-
-
     <header>
       <div class="fixed-top mb-5 pb-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbars">
@@ -86,23 +86,71 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="entrevista.php">Entrevistas <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../entrevistas/entrevistas.php">Entrevistas <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black" >Ciencias</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="../ciencias/becas.php" >Becas</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../ciencias/ciencias.php">Ciencias</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../ciencias/cientifica.php">Comunidad cientifica</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../ciencias/noticias.php">Noticias</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../ciencias/review.php">Reviews</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black" >Actualidad</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="../actualidad/cultura.php" >Cultura</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../actualidad/economia.php">Economia</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../actualidad/mundo.php">Mundo</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../actualidad/tecnologia.php">Tecnologia</a>
+                </div>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black" >Audiovisual</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="../audiovisual/fotografia.php" >Fotografia</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../audiovisual/podcast.php">Podcast</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../audiovisual/videoreportaje.php">Videoreportaje</a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Nosotros<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="ciencias.php">Ciencias <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="../actualidad/actualidad.php">Actualidad<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="audivisual.php">Audivisual<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="nosotros.php">Nosotros<span class="sr-only">(current)</span></a>
+                <a class="nav-link" >    
+                  <?php echo $fecha; ?>
+                  <span class="sr-only">(current)</span>
+                </a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
     </header>
+
+ 
+
+
+
+
+
+
+
+
+
+
   </section>
