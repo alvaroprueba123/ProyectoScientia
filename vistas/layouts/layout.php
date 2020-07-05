@@ -42,9 +42,6 @@
             break;
     }
     $fecha=date('d').', '.$mes.' del '.date('Y');
-    echo $fecha;
-
-    echo ('asdñasdñlksa');
 ?>
 
   <head>
@@ -64,13 +61,10 @@
 
 
   <section>
-    <?php
-      echo $fecha;
-    ?>
     <div class="container mt-5" >
             <div class="row text-center mt-4">
                 <div class="col-12 mt-4 mb-3" id="title-entrevista" >
-                    <img src="../images/logos.png" alt="logo de scientia" class="logo">
+                    <img src="../imagenes/logo/logo_hori.png" alt="logo de scientia" class="logo">
                 </div>
                 
             </div>
@@ -97,8 +91,6 @@
                   <a class="dropdown-item" href="../ciencias/ciencias.php">Ciencias</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="../ciencias/cientifica.php">Comunidad cientifica</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../ciencias/noticias.php">Noticias</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="../ciencias/review.php">Reviews</a>
               </li>
