@@ -7,7 +7,7 @@
 </section>
 
 <section>
-  <div class="container"  style="background-image: url('../imagenes/ciencias/portada_review.png'); max-height:100%; max-width: 100%; margin:auto; display:block;">
+  <div class="container"  style="background-image: url('../imagenes/ciencias/portada_review.png'); max-height:100%; max-width: 100%; background-repeat: no-repeat;background-size:cover;background-position:center; ">
     <div class="row">
 
       <div class="col-sm" >

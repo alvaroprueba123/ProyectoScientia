@@ -5,14 +5,14 @@
 ?>
 
 <section>
-  <div class="container"  style="background-image: url('../imagenes/actualidad/economia/imgecon3.png'); max-height:100%; max-width: 100%; margin:auto; display:block;">
+  <div class="container"  style="background-image: url('../imagenes/actualidad/economia/imgecon3.png'); max-height:100%; max-width: 100%; background-repeat: no-repeat;background-size:cover;background-position:center; ">
     <div class="row">
 
       <div class="col-sm" >
       </div>
 
       <div class="col-sm" style="display: table;height:200px;">
-        <a href="actualidad.php" style="color:black; text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1>Actualidad</h1></a>
+        <a  style="color:black; text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1>Actualidad</h1></a>
       </div>
 
       <div class="col-sm" >

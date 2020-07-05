@@ -7,7 +7,7 @@
 </section>
 
 <section>
-  <div class="container"  style="background-image: url('../imagenes/portadas/becas.jpg'); max-height:100%; max-width: 100%; margin:auto; display:block;">
+  <div class="container"  style="background-image: url('../imagenes/portadas/becas.jpg'); max-height:100%; max-width: 100%; background-repeat: no-repeat;background-size:cover;background-position:center; ">
     <div class="row">
 
       <div class="col-sm" >
@@ -229,9 +229,9 @@
 	padding: 50px;
   }
 	.logo {
-    max-width: 100%;
-    max-height: 100%;
-  }
+    max-width: 300px;
+    max-height: 120px;
+}
 </style>
 
 <section>
