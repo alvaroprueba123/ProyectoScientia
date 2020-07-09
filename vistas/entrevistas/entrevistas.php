@@ -37,14 +37,14 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/cordillera.jpg" class="d-block w-100" alt="cordillera de los andes">
+            <img src="../imagenes/actualidad/mundo/imgmund2.png" class="d-block w-100" alt="cordillera de los andes">
             <div class="carousel-caption d-none d-md-block">
               <h5>Los Andes-Perú</h5>
               
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/lake.jpg" class="d-block w-100" alt="un pueblo en el lago titicaca">
+            <img src="../imagenes/actualidad/mundo/imgmund2.png" class="d-block w-100" alt="un pueblo en el lago titicaca">
             <div class="carousel-caption d-none d-md-block">
               <h5>Un pueblo hacia la mira del Titicaca</h5>
             </div>
@@ -59,7 +59,7 @@
                               Odio dolorem iure atque cupiditate voluptate sequi neque <br>
                               corrupti reiciendis quos! Repellat, pariatur porro vitae <br>
                               voluptas tenetur rem suscipit quasi debitis totam!</p>
-                            <button type="button" class="btn btn-primary">Ir a facebook...</button>
+                             
                       </div>
                   </div>
               </div>

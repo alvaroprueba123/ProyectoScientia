@@ -18,7 +18,7 @@
 
 
  <section>
-  <div class="container"  style="background-image: url('../imagenes/portadas/audiovi.png'); max-height:100%; max-width: 100%;background-repeat: no-repeat;background-size:cover;background-position:center">
+  <div class="container"  style="background-image: url('../imagenes/portadas/videoreportaje.jpg'); max-height:100%; max-width: 100%;background-repeat: no-repeat;background-size:cover;background-position:center">
     <div class="row">
       <div class="col-sm" >
       </div>
