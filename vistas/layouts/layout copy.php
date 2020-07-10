@@ -44,105 +44,133 @@
     $fecha=date('d').', '.$mes.' del '.date('Y');
 ?>
 
+
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="./fonts/style.css">
-    
-  </head>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </>
 
 
+<body>
+  <style>
+    /* --- Clase que agregaremos cuando el usuario haga scroll --- */
+    .menu-fixed {
+    position:fixed;
+    z-index:1000;
+    top:0;
+    /*max-width:1000px;*/
+    left:0;
+    width:100%;
+    background: #333333;
+  }
 
 
-
+  </style>
+  <script>
+    $(document).ready(function(){
+      var altura = $('.menu').offset().top;
+      $(window).on('scroll', function(){
+        if ( $(window).scrollTop() > altura ){
+          $('.menu').addClass('menu-fixed');
+        } else {
+          $('.menu').removeClass('menu-fixed');
+        }
+      });
+    });
+  </script>
   <section>
-    <div class="container mt-5" >
-            <div class="row text-center mt-4">
-                <div class="col-12 mt-4 mb-3" id="title-entrevista" >
-                    <img src="../imagenes/logo/logo_hori.png" alt="logo de scientia" class="logo" style="max-width: 300px; max-height: 350px;">
-                </div>
-                
-            </div>
-        </div>
-    <header>
-      <div class="mb-5 pb-4">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbars">
-          <a class="navbar-brand" href="../index/inicio.php">SCIENTIA</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="../entrevistas/entrevistas.php">Entrevistas <span class="sr-only">(current)</span></a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black" >Ciencias</a>
-                <div class="dropdown-menu">
-                <a class="dropdown-item" href="../ciencias/becas.php" >Becas</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../ciencias/ciencias.php">Ciencias</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../ciencias/cientifica.php">Comunidad cientifica</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../ciencias/review.php">Reviews</a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black" >Actualidad</a>
-                <div class="dropdown-menu">
-                <a class="dropdown-item" href="../actualidad/cultura.php" >Cultura</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../actualidad/economia.php">Economia</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../actualidad/mundo.php">Mundo</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../actualidad/tecnologia.php">Tecnologia</a>
-                </div>
-              </li>
-
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:black" >Audiovisual</a>
-                <div class="dropdown-menu">
-                <a class="dropdown-item" href="../audiovisual/fotografia.php" >Fotografia</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../audiovisual/podcast.php">Podcast</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../audiovisual/videoreportaje.php">Videoreportaje</a>
-              </li>
-
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Nosotros<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" >    
-                  <?php echo $fecha; ?>
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <div >
+    <div class="row col-md-12">
+      <div class="col-sm-3" >
+        <p style="font-weight: bold; margin:10px 0px 0px 20px"><?php echo $fecha; ?></p> 
       </div>
+
+      <div class="col-sm-6">
+        <p style="font-weight: bold; margin:10px 0px 0px 15px; text-align:center;">Nuevo: Lorem ipsum dolor, sit amet quia hic!</p>
+      </div>
+    </div>
+
+      <div class="row col-md-12">
+        <center>
+        <div class="col-md-6" >
+          <img src="../imagenes/logo/logo_hori.png"  style="max-width: 67%; max-height: 67%;">
+        </div>  
+        </center>
+      </div>
+    </div>
+
+
+    <header style="background:#333333">
+
+        <nav class="menu" >
+          <nav class="navbar navbar-expand-lg navbar-light bg-#333333" data-toggle="affix" style="margin: 0px 110px 25px 110px;" >
+            <button class="navbar-toggler" type="button" style="border-color:white;" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+              <span style="color:white">Scientia</span>
+            </button>
+            <div class="collapse navbar-collapse navbar-nav nav-fill w-100 collapse" id="navbarsExample11">
+              <ul class="navbar-nav nav-fill w-100 nav-justify" style="list-style-type:disc; color:white;" >
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index/inicio.php"><span style="color:white; font-size:25px;font-weight: bold">Inicio</span></a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><span style="color:white; font-size:25px;font-weight: bold">Entrevistas</span></a>
+                </li>
+
+                <li class="nav-item dropdown" >
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" ><span style="color:white; font-size:25px;font-weight: bold">Ciencias</span></a>
+                  <div class="dropdown-menu w-100" style="background:#333333;">
+                  <a class="dropdown-item" href="../ciencias/becas.php" ><span style="color:white; font-size:25px;">Becas</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../ciencias/ciencias.php"><span style="color:white; font-size:25px;">Ciencias</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../ciencias/cientifica.php"><span style="color:white; font-size:25px;">Comunidad <br> cientifica</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../ciencias/review.php"><span style="color:white; font-size:25px;">Reviews</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" ><span style="color:white; font-size:25px;font-weight: bold">Actualidad</span></a>
+                  <div class="dropdown-menu w-100" style="background:#333333;">
+                  <a class="dropdown-item" href="../actualidad/cultura.php" ><span style="color:white; font-size:25px;">Cultura</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../actualidad/economia.php"><span style="color:white; font-size:25px;">Economia</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../actualidad/mundo.php"><span style="color:white; font-size:25px;">Mundo</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../actualidad/tecnologia.php"><span style="color:white; font-size:25px;">Tecnologia</span></a>
+                  </div>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span style="color:white; font-size:25px;font-weight: bold">Audiovisual</span></a>
+                  <div class="dropdown-menu w-100" style="background:#333333;">
+                  <a class="dropdown-item" href="../audiovisual/fotografia.php" ><span style="color:white; font-size:25px;">Fotografia</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../audiovisual/podcast.php"><span style="color:white; font-size:25px;">Podcast</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../audiovisual/videoreportaje.php"><span style="color:white; font-size:25px;">Videoreportaje</span></a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><span style="color:white; font-size:25px; font-weight: bold">Nosotros</span></a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+        </nav>
+
     </header>
-
- 
-
-
-
-
-
-
-
-
-
-
   </section>
+
+

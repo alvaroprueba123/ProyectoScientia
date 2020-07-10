@@ -1,37 +1,32 @@
-
-
 <section>
   <?php
       include('../layouts/layout.php');
   ?>
 </section>
 
+<style>
+  #subtitle{
+    font-size:35px;
+  }
+</style>
+
 <section>
-  <div class="container"  style="background-image: url('../imagenes/ciencias/portada_review.png'); max-height:100%; max-width: 100%; background-repeat: no-repeat;background-size:cover;background-position:center; ">
-    <div class="row">
-
-      <div class="col-sm" >
+  <div class="container"  style="background-image: url('../imagenes/portadas/review.jpg'); max-height:100%; max-width: 100%; background-repeat: no-repeat;background-size:100% 100%; padding:45px 0px 45px 0px; ">
+    <div class="row w-100">
+      <div class="col-md-3" style="display: table;height:200px;margin-left: 75px;">
+        <a href="ciencias.php" style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:black; font-size:50px; text-align:center">Ciencias</h1></a>
       </div>
-
-      <div class="col-sm" style="display: table;height:200px;">
-        <a href="ciencias.php" style="color:white; text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1>Ciencias</h1></a>
+      <div class="col-md-3" style="margin-left: 20px;">
+        <br>
+        <a href="review.php" style="color:black; text-decoration-line: none;"><h5 id="subtitle">Review</h5></a>
+        <br>
+        <a href="becas.php" style="color:black; text-decoration-line: none;"><h5 id="subtitle">Becas e Intercambios</h5></a>
+        <br>
+        <a href="cientifica.php" style="color:black; text-decoration-line: none;"><h5 id="subtitle">Comunidad Cientifica</h5></a>
       </div>
-
-      <div class="col-sm" >
-        <br>
-        <a href="review.php" style="color:white; text-decoration-line: none;"><h5>Review</h5></a>
-        <br>
-        <a href="becas.php" style="color:white; text-decoration-line: none;"><h5>Becas e Intercambios</h5></a>
-        <br>
-        <a href="cientifica.php" style="color:white; text-decoration-line: none;"><h5>Comunidad Cientifica</h5></a>
-      </div>
-
     </div>
   </div>
 </section>
-
-
-
 
 <section id="enterview" class="mt-4 mb-4 offset-2" style="background:white">
   <div class="container-fluid ">
@@ -165,78 +160,10 @@
               </div>
             </div>
           </div>
-        
         <br>
-        <!--
-        <div class="col-md-4" >
-          <div class="container" >
-            <div class="row" >
-                <div class="card" style="max-width: 100%; background:#F2F2F2;margin-top: 25px;">
-                  <div class="card-header">
-                    <h3>Recomendaciones</h3>
-                  </div>
-                  <ul class="list-group list-group-flush" style="text-align: center;  ">
-                  
-                    <li  id="view1" class="list-group-item" style="background:#F2F2F2">
-                      <div >
-                        
-                        <a href="#modal" role="button" class="btn btn-default" data-toggle="modal"><img src="../imagenes/ciencias/review/imgrvw1.jpeg" class="card-img" style="max-height:100%; max-width:100%;" alt=""></a>
-                        
-                        <div id="modal" class="modal fade">
-                            <div class="modal-dialog" style="padding:100px 0px 0px 0px">
-                              <center>
-                              <img src="../imagenes/ciencias/review/imgrvw1.jpeg" class="card-img" style="max-height:100%; max-width:100%;" alt="" >
-                              </center>
-                            </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li  id="view1" class="list-group-item" style="background:#F2F2F2">
-                      <div >
-                        
-                        <a href="#modal" role="button" class="btn btn-default" data-toggle="modal"><img src="../imagenes/ciencias/review/imgrvw2.jpeg" class="card-img" style="max-height:100%; max-width:100%;" alt=""></a>
-                        
-                        <div id="modal" class="modal fade">
-                            <div class="modal-dialog" style="padding:100px 0px 0px 0px">
-                              <center>
-                              <img src="../imagenes/ciencias/review/imgrvw2.jpeg" class="card-img" style="max-height:100%; max-width:100%;" alt="" >
-                              </center>
-                            </div>
-                        </div>
-                      </div>
-                    </li>
-
-                  </ul>
-                </div>
-            </div>
-          </div>
-        </div>
-
-
--->
       </div>
-      
   </div>
 </section>
-
-
-
-
-
-
-
-<style>
-	footer {
-    width: 100%;
-    background-color: #000;
-    color: white;
-	padding: 50px;
-  }
-	.logo {
-    max-width: 300px;
-    max-height: 120px;
-  }
-</style>
 
 <section>
   <?php

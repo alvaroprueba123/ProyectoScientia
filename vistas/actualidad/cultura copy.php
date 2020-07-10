@@ -10,11 +10,11 @@
   </style>
 
   <section>
-    <div class="container"  style="background-image: url('../imagenes/portadas/cultura.png'); max-height:100%; max-width: 100%; background-repeat: no-repeat;background-size:100% 100% ;background-attachment:fixed; padding:25px 0px 25px 0px; ">
+    <div class="container"  style="background-image: url('../imagenes/portadas/cultura2.png'); max-height:100%; max-width: 100%; background-repeat: no-repeat;background-size:100% 100%; background-attachment:fixed; padding:25px 0px 25px 0px; ">
       <div class="row w-100">
 
         <div class="col-md-3" style="display: table;height:300px;margin-left: 75px;">
-          <a href="ciencias.php" style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:white; font-size:50px; text-align:center">Actualidad</h1></a>
+          <a href="ciencias.php" style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:black; font-size:50px; text-align:center">Actualidad</h1></a>
         </div>
 
         <div class="col-md-3" style="margin-left: 20px;">
