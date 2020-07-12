@@ -165,3 +165,15 @@
   <br>
 
 
+  
+  <!--
+    /////////  REALIZADO POR:   ALBERTO VELASQUEZ /////////////
+    ///////  PARA CONTACTO:     alberto.vs@outlook.com  ///////
+    ///////////////  ASUNTO: DESARROLLO WEB  //////////////////
+    ///////////////////////////////////////////////////////////
+    /////////  REALIZADO POR:   ALBERTO VELASQUEZ /////////////
+    ///////  PARA CONTACTO:     alberto.vs@outlook.com  ///////
+    ///////////////  ASUNTO: DESARROLLO WEB  //////////////////
+  -->
+
+

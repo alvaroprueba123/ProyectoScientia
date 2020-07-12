@@ -63,7 +63,7 @@
                               Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
                               ut reprehenderit excepturi officia laudantium minima. Repellat?
                             </p>
-                            <button type="button" class="btn btn-default" style="background:#CCCCCC;">Leer más...</button>
+                            <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                           </div>
                         </div>
                       </div>
@@ -98,7 +98,7 @@
                               Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
                               ut reprehenderit excepturi officia laudantium minima. Repellat?
                             </p>
-                            <button type="button" class="btn btn-default" style="background:#CCCCCC;">Leer más...</button>
+                            <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                           </div>
                         </div>
                       </div>
@@ -133,7 +133,7 @@
                               Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
                               ut reprehenderit excepturi officia laudantium minima. Repellat?
                             </p>
-                            <button type="button" class="btn btn-default" style="background:#CCCCCC;">Leer más...</button>
+                            <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                           </div>
                         </div>
                       </div>
@@ -168,7 +168,7 @@
                               Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
                               ut reprehenderit excepturi officia laudantium minima. Repellat?
                             </p>
-                            <button type="button" class="btn btn-default" style="background:#CCCCCC;">Leer más...</button>
+                            <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                           </div>
                         </div>
                       </div>
