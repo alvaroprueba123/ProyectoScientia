@@ -88,10 +88,10 @@
     <div >
     <div class="row col-md-12">
       <div class="col-sm-3" >
-        <p style="font-weight: bold; margin:10px 0px 0px 20px"><?php echo $fecha; ?></p> 
+        <p style="font-weight: ; margin:10px 0px 0px 20px; font-family:aleo;"><?php echo $fecha; ?></p> 
       </div>
       <div class="col-sm-6">
-        <p style="font-weight: bold; margin:10px 0px 0px 15px; text-align:center;">Nuevo: Lorem ipsum dolor, sit amet quia hic!</p>
+        <p style="font-weight: ; margin:10px 0px 0px 15px; text-align:center; font-family:aleo;">Nuevo: Lorem ipsum dolor, sit amet quia hic!</p>
       </div>
     </div>
       <div class="row col-md-12">
@@ -102,7 +102,7 @@
         </center>
       </div>
     </div>
-    <header style="background:#333333">
+    <header style="background:#333333;font-family:oswald;">
       <nav class="menu" >
         <nav class="navbar navbar-expand-lg navbar-light bg-#333333" data-toggle="affix" style="margin: 0px 110px 0px 110px;" >
           <button class="navbar-toggler" type="button" style="border-color:white;" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,8 +122,6 @@
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" ><span style="color:white; font-size:25px;font-weight: bold">Ciencias</span></a>
                 <div class="dropdown-menu w-100" style="background:#333333;">
                 <a class="dropdown-item" href="../ciencias/becas.php" ><span style="color:white; font-size:25px;">Becas</span></a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="../ciencias/ciencias.php"><span style="color:white; font-size:25px;">Ciencias</span></a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="../ciencias/cientifica.php"><span style="color:white; font-size:25px;">Comunidad <br> cientifica</span></a>
                   <div class="dropdown-divider"></div>

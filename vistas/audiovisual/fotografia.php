@@ -27,7 +27,7 @@
 		<div class="row w-100">
 
 			<div class="col-md-3" style="display: table;height:200px;margin-left: 75px;">
-			<a href="ciencias.php" style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:white; font-size:50px; text-align:center">Audiovisual</h1></a>
+			<a style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:white; font-size:50px; text-align:center">Audiovisual</h1></a>
 			</div>
 
 			<div class="col-md-3" style="margin-left: 20px;">
@@ -56,12 +56,12 @@
 					</div>
 				</div>
 				<div id="main-gallery">
-					<div id="imagen-1" class="box-image"><img src="../imagenes/audiovisual/fotografia/imgfot1.jpg" alt="" class="imagenes"></div>
-					<div id="imagen-2" class="box-image"><img src="../imagenes/audiovisual/fotografia/imgfot2.jpg" alt="" class="imagenes"></div>
-					<div id="imagen-3" class="box-image"><img src="../imagenes/audiovisual/fotografia/imgfot3.jpg" alt="" class="imagenes"></div>
-					<div id="imagen-4" class="box-image"><img src="../imagenes/audiovisual/fotografia/imgfot4.jpg" alt="" class="imagenes"></div>
-					<div id="imagen-5" class="box-image"><img src="../imagenes/audiovisual/fotografia/imgfot5.jpg" alt="" class="imagenes"></div>
-					<div id="imagen-6" class="box-image"><img src="../imagenes/audiovisual/fotografia/imgfot6.jpg" alt="" class="imagenes"></div>
+					<div id="imagen-1" class="box-image"><a href=""><img src="../imagenes/audiovisual/fotografia/imgfot1.jpg" alt="" class="imagenes"></a></div>
+					<div id="imagen-2" class="box-image"><a href=""><img src="../imagenes/audiovisual/fotografia/imgfot2.jpg" alt="" class="imagenes"></a></div>
+					<div id="imagen-3" class="box-image"><a href="../audiovisual/fotografia_art.php"><img src="../imagenes/audiovisual/fotografia/imgfot3.jpg" alt="" class="imagenes"></a></div>
+					<div id="imagen-4" class="box-image"><a href=""><img src="../imagenes/audiovisual/fotografia/imgfot4.jpg" alt="" class="imagenes"></a></div>
+					<div id="imagen-5" class="box-image"><a href=""><img src="../imagenes/audiovisual/fotografia/imgfot5.jpg" alt="" class="imagenes"></a></div>
+					<div id="imagen-6" class="box-image"><a href=""><img src="../imagenes/audiovisual/fotografia/imgfot6.jpg" alt="" class="imagenes"></a></div>
 				</div>
 			</div>
 		</div>

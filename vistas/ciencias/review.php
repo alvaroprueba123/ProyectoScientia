@@ -14,7 +14,7 @@
   <div class="container"  style="background-image: url('../imagenes/portadas/review.jpg'); max-height:100%; max-width: 100%; background-repeat: no-repeat;background-size:100% 100%; padding:45px 0px 45px 0px; ">
     <div class="row w-100">
       <div class="col-md-3" style="display: table;height:200px;margin-left: 75px;">
-        <a href="ciencias.php" style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:black; font-size:50px; text-align:center">Ciencias</h1></a>
+        <a style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:black; font-size:50px; text-align:center">Ciencias</h1></a>
       </div>
       <div class="col-md-3" style="margin-left: 20px;">
         <br>

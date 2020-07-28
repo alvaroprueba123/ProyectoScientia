@@ -14,7 +14,7 @@
       <div class="row w-100">
 
         <div class="col-md-3" style="display: table;height:300px;margin-left: 75px;">
-          <a href="ciencias.php" style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:black; font-size:50px; text-align:center">Actualidad</h1></a>
+          <a style="text-decoration-line: none; display: table-cell; vertical-align: middle;"><h1 style="color:black; font-size:50px; text-align:center">Actualidad</h1></a>
         </div>
 
         <div class="col-md-3" style="margin-left: 20px;">

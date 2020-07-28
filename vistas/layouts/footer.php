@@ -4,26 +4,27 @@
       <div class="row">
         <!--columna 1-->
         <div class="col-md-4 text-center">
-            <h2>SCIENTIA</h2>
-            <p style="font-size: 150%;">Conocimiento que libera</p>
+            <h2 style="font-family:eczar;">SCIENTIA</h2>
+            <p style="font-size: 150%; font-family:aleo;">Conocimiento que libera</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
               Quod est ipsa et officiis enim animi fugit distinctio.  <br>
             </p>
         </div>
         <!--columna 2-->
         <div class="col-md-4 text-center">
-          <h2>Social media</h2>
+          <h2 style="font-family:eczar;">Social media</h2>
           <br>
-          <span id=span_icon><a href=""><img src="../imagenes/iconos/fb_cuadrado.png" style="height:40px; width:40px"></a></span>
-          <span id=span_icon><a href=""><img src="../imagenes/iconos/inst_cua_2.png" style="height:40px; width:40px"></a></span>
-          <span id=span_icon><a href=""><img src="../imagenes/iconos/spotify.png" style="height:40px; width:40px"></a></span>
-          <span id=span_icon><a href=""><img src="../imagenes/iconos/yt.png" style="height:40px; width:40px"></a></span>
+          <br>
+          <span id=span_icon><a href=""><img src="../imagenes/iconos/fbbl.png" style="height:70px; width:70px"></a></span>
+          <span id=span_icon><a href=""><img src="../imagenes/iconos/igbl.png" style="height:70px; width:70px"></a></span>
+          <span id=span_icon><a href=""><img src="../imagenes/iconos/spbl.png" style="height:70px; width:70px"></a></span>
+          <span id=span_icon><a href=""><img src="../imagenes/iconos/ytbl.png" style="height:70px; width:70px"></a></span>
         </div>
         <!--columna 3-->
         <div class="col-md-4 text-center" >
-          <h4>Contactenos en:</h4>
+          <h4 style="font-family:aleo;">Contactenos en:</h4>
           <p style="font-size: 125%;">scientia@scientia.com</p>
-          <h4>Respaldado por: </h4>
+          <h4 style="font-family:eczar;">Respaldado por: </h4>
           <ul style="list-style:none">
             <li>Coca-cola</li>
             <li>UNALM</li>

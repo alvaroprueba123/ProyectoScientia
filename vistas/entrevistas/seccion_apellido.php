@@ -1,18 +1,20 @@
-    <?php
+<?php
         include('../layouts/layout.php');
     ?>
 
 
-    <section  class="mb-4 offset-2" style="background:white;margin-left:200px">
+    <section  class="mb-4 offset-2" style="background:white">
         <div class="container-fluid">
             <div class="row" > 
                 <div  class="col-md-8"> 
                     <br>
-                    <div  class="ml-1 mr-1" style="max-width: 100%">
+                    <div  class="ml-1 mr-2" style="max-width: 100%">
                         <div class="row">
-                            <div class="col-md-12 " style="background:#9ACDCD; padding:40px 80px 40px 80px; text-align: justify;">
+<!-------------------------------------------------------------------------------------------------!!!  SE PUEDE MODIFICAR !!!  ------------------------------------------------------------------------------->
+                            <div class="col-md-10 " style="background:#9ACDCD; padding:40px 40px 40px 40px; text-align: justify;">
                                 <h5>11 de Diciembre, 2020</h5>
                                 <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                                
                                 <img src="../imagenes/audiovisual/fotografia/imgfot6.jpg" style="max-height :100%; max-width:100%; margin: auto; display:block; padding:20px 0px 20px 0px;">
                                 <br>
                                 <p>
@@ -131,11 +133,19 @@
                         </div>    
                     </div>
                 </div>
+
+<!-------------------------------------------------------------------------------------------------  !!! SE PUEDE MODIFICAR !!!  ------------------------------------------------------------------------------->
+
+
+
+
+
+
                 <br>
                 <div class="col-md-4" >
                     <div class="container" >
                         <div class="row" >
-                            <div class="card" style="max-width: 100%;background:#DEE9E9;margin-top: 25px;padding-right: 40px;padding-left: 40px;padding-bottom: 40px;padding-top: 40px;">
+                            <div class="card" style="max-width: 100%; background:#DEE9E9;margin-top: 25px;">
                                 <div class="card-header">
                                     <h3>Lo nuevo</h3>
                                 </div>

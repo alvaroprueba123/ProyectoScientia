@@ -50,7 +50,7 @@
                               Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
                               ut reprehenderit excepturi officia laudantium minima. Repellat?
                             </p>
-                            <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                            <a href="../entrevistas/entrevista_art.php" class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                           </div>
                         </div>
                       </div>
