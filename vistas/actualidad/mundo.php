@@ -44,25 +44,21 @@
                     <div class="row">
                       <!--columanas 1-->
                       <div class="ml-3 mr-3">
-                        <h2>Entre distopias y realidades</h2>
-                        <h5>Ana valdez</h5>
-                        <img src="../imagenes/actualidad/mundo/imgmund14.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                        <h2>Las mujeres en el mundo de la ciencia y la tecnologías</h2>
+                        <h5>Angella Johana Llanos M.</h5>
+                        <img src="../imagenes/actualidad/mundo/llanos/img.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
                       </div>
                       <!--columanas 2-->
                       <div class="col-sm">
                         <div class="card-body ">
-                          <br>
+                        <br>
                           <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Quis consectetur accusamus eligendi autem molestiae quia.
-                            Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
-                            ut reprehenderit excepturi officia laudantium minima. Repellat?
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Quis consectetur accusamus eligendi autem molestiae quia.
-                            Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
-                            ut reprehenderit excepturi officia laudantium minima. Repellat?
+                            FUENTE: Previsión de noticias Complutense
                           </p>
-                          <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                          <p>
+                            Estudios realizados por la UNESCO indican que “La pobreza, la falta de instrucción y aspectos jurídicos, institucionales, políticos y culturales de su entorno hacen que en el mundo muchas mujeres y niñas se hallen excluidas de las actividades de ciencia y tecnología”. Sin embargo, el tiempo ha demostrado que estos obstáculos inminentes en el progreso de las mujeres en la ciencia y tecnología  no se opacaron del todo, ya que hubo mujeres que fueron participe de iniciativas suscitando grandes descubrimientos que repercuten en la actualidad. 
+                          </p>
+                          <a href="../actualidad/mundo_llanos.php" class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                         </div>
                       </div>
                     </div>
@@ -79,7 +75,7 @@
                     <div class="row">
                       <!--columanas 1-->
                       <div class="ml-3 mr-3">
-                        <h2>Entre distopias y realidades</h2>
+                        <h2>Las mujeres en el mundo de la ciencia y la tecnología</h2>
                         <h5>Ana valdez</h5>
                         <img src="../imagenes/actualidad/mundo/imgmund3.jpeg" class="card-img" alt="" style="max-height:100%; max-width:100%;">
                       </div>
