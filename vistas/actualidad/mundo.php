@@ -106,25 +106,19 @@
                     <div class="row">
                       <!--columanas 1-->
                       <div class="ml-3 mr-3">
-                        <h2>Entre distopias y realidades</h2>
-                        <h5>Ana valdez</h5>
-                        <img src="../imagenes/actualidad/mundo/imgmund5.jpeg" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                        <h2>¿Los termómetros infrarrojos causan deterioro de neuronas?</h2>
+                        <h5>Gabriela Flores Enciso</h5>
+                        <img src="../imagenes/actualidad/mundo/flores/flores.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
                       </div>
                       <!--columanas 2-->
                       <div class="col-sm">
                         <div class="card-body ">
                           <br>
+                          <p>FUENTE: as.com</p>
                           <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Quis consectetur accusamus eligendi autem molestiae quia.
-                            Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
-                            ut reprehenderit excepturi officia laudantium minima. Repellat?
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Quis consectetur accusamus eligendi autem molestiae quia.
-                            Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
-                            ut reprehenderit excepturi officia laudantium minima. Repellat?
+                            Los termómetros infrarrojos o pirómetros son considerados métodos de medición de la temperatura a distancia, basándose en la relación entre la persona a la que se va a medir y el equipo; o métodos no invasivos, ya que solo se asoma al cuerpo de la persona a la que se medirá1. Existen dos tipos: De oído (ótico) y de frente. Este último es el más usado para prevenir contacto con un posible caso positivo al covid-19 hoy en día.
                           </p>
-                          <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                          <a href="../actualidad/mundo_flores.php" class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                         </div>
                       </div>
                     </div>
