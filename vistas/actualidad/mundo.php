@@ -75,25 +75,21 @@
                     <div class="row">
                       <!--columanas 1-->
                       <div class="ml-3 mr-3">
-                        <h2>Las mujeres en el mundo de la ciencia y la tecnología</h2>
-                        <h5>Ana valdez</h5>
-                        <img src="../imagenes/actualidad/mundo/imgmund3.jpeg" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                        <h2>Plaga de langostar en Sudamérica</h2>
+                        <h5>Daniela Campuzano Carrillo</h5>
+                        <img src="../imagenes/actualidad/mundo/campuzano/img2.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
                       </div>
                       <!--columanas 2-->
                       <div class="col-sm">
                         <div class="card-body ">
                           <br>
                           <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Quis consectetur accusamus eligendi autem molestiae quia.
-                            Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
-                            ut reprehenderit excepturi officia laudantium minima. Repellat?
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Quis consectetur accusamus eligendi autem molestiae quia.
-                            Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
-                            ut reprehenderit excepturi officia laudantium minima. Repellat?
+                            Fuente: UN News
                           </p>
-                          <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                          <p>
+                            Actualmente en medio de esta pandemia mundial, una de las plagas más destructivas del mundo está dañando a una gran parte de Sudamérica. Se trata de la especie Schistocera cancellata la cual ha estado provocando daños a nivel de agricultura y economía en los países de: Argentina, Brasil y Paraguay.
+                          </p>
+                          <a href="../actualidad/mundo_campuzano.php" class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                         </div>
                       </div>
                     </div>
