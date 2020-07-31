@@ -154,6 +154,34 @@
                 </div>
               </div>
             </div>
+
+            <div  class="ml-1 mr-2" style="max-width: 100%">
+              <div class="row">
+                <div class="card ml-3 mr-3" style="background:#C2C5C2;">
+                  <div class="card-body ">
+                    <div class="row">
+                      <!--columanas 1-->
+                      <div class="ml-3 mr-3">
+                        <h2>El 50% de los tiburones del Mediterráneo están heridos</h2>
+                        <h5>Katherine Quinto Granda</h5>
+                        <img src="../imagenes/actualidad/mundo/quinto/cover.jpg" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                      </div>
+                      <!--columanas 2-->
+                      <div class="col-sm">
+                        <div class="card-body ">
+                          <br>
+                          <p>
+                            Para Aniol Esteban, director de la Fundación Marilles, se dedican a financiar proyectos para mejorar el mar balear, "un mar con tiburones es un mar en buen estado de conservación". Asegura que "el único miedo que hay que tener a los tiburones es a su extinción", ya que al encontrarse en la cima de la cadena trófica, son imprescindibles para mantener el equilibrio del ecosistema, y asegurar la supervivencia del resto de animales.
+                          </p>
+                          <a href="../actualidad/mundo_quinto.php"  class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         <br>
       </div>
