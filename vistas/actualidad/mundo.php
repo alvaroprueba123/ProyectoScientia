@@ -135,25 +135,18 @@
                     <div class="row">
                       <!--columanas 1-->
                       <div class="ml-3 mr-3">
-                        <h2>Entre distopias y realidades</h2>
-                        <h5>Ana valdez</h5>
-                        <img src="../imagenes/actualidad/mundo/imgmund14.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                        <h2>Ciencia y Tecnología vs Política</h2>
+                        <h5>Gisell Vilchez Torres</h5>
+                        <img src="../imagenes/actualidad/mundo/vilchez/miniatura.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
                       </div>
                       <!--columanas 2-->
                       <div class="col-sm">
                         <div class="card-body ">
                           <br>
                           <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Quis consectetur accusamus eligendi autem molestiae quia.
-                            Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
-                            ut reprehenderit excepturi officia laudantium minima. Repellat?
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Quis consectetur accusamus eligendi autem molestiae quia.
-                            Assumenda, exercitationem, enim voluptatem debitis non repudiandae fuga
-                            ut reprehenderit excepturi officia laudantium minima. Repellat?
+                            Diariamente, se discuten sobre las carreras o profesiones que existen, ya sea en una reunión de exalumnos o una simple conversación con el familiar que acabará el colegio: ¿Dedicarse a la ciencia y tecnología es mejor que dedicarse a otras áreas? Corriendo el riesgo de herir el ego de las personas que afirmaron la pregunta: No.  ¿Graduarme en humanidades me convertirá automáticamente en un ser superior? Nuevamente, la respuesta es no. 
                           </p>
-                          <a class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                          <a href="../actualidad/mundo_vilchez.php"  class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
                         </div>
                       </div>
                     </div>
