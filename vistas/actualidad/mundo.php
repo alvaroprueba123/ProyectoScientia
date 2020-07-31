@@ -209,6 +209,33 @@
               </div>
             </div>
 
+            <div  class="ml-1 mr-2" style="max-width: 100%">
+              <div class="row">
+                <div class="card ml-3 mr-3" style="background:#C2C5C2;">
+                  <div class="card-body ">
+                    <div class="row">
+                      <!--columanas 1-->
+                      <div class="ml-3 mr-3">
+                        <h2>¿LAS PANDEMIAS SON EL RESULTADO DE LA DESTRUCCIÓN DE LA NATURALEZA?</h2>
+                        <h5>Marjhory Quiñones Pastor</h5>
+                        <img src="../imagenes/actualidad/mundo/pastor/cover.jpg" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                      </div>
+                      <!--columanas 2-->
+                      <div class="col-sm">
+                        <div class="card-body ">
+                          <br>
+                          <p>
+                            Con la irrupción del Covid-19 en los últimos meses sumidos en un confinamiento y en una crisis sanitaria sin precedentes, los científicos no cesan en la búsqueda de encontrar fármacos y vacunas contra este virus. Asimismo, se han realizado diversos estudios sobre el funcionamiento y ciclo vital del mismo, además de las distintas hipótesis sobre su origen que probablemente se oyó más de una vez. Pasada esta emergencia es necesario cuestionarnos si son nuestros hábitos y comportamientos los que nos ponen en peligro.
+                          </p>
+                          <a href="../actualidad/mundo_pastor.php"  class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         <br>
       </div>
