@@ -263,6 +263,33 @@
               </div>
             </div>
 
+            <div  class="ml-1 mr-2" style="max-width: 100%">
+              <div class="row">
+                <div class="card ml-3 mr-3" style="background:#C2C5C2;">
+                  <div class="card-body ">
+                    <div class="row">
+                      <!--columanas 1-->
+                      <div class="ml-3 mr-3">
+                        <h2>LA HUMEDAD Y LA TEMPERATURA COMO PROBLEMAS INMINENTES</h2>
+                        <h5>Tania Cencara Rojas</h5>
+                        <img src="../imagenes/actualidad/mundo/cencara/cover.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                      </div>
+                      <!--columanas 2-->
+                      <div class="col-sm">
+                        <div class="card-body ">
+                          <br>
+                          <p>
+                            Los seres humanos tenemos una gran capacidad para mantener en equilibro nuestro cuerpo liberando calor a través del sudor y, en consecuencia, hemos logramos poblar diferentes territorios en toda la tierra. 
+                          </p>
+                          <a href="../actualidad/mundo_cencara.php"  class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         <br>
       </div>
