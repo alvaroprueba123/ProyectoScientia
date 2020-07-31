@@ -236,6 +236,33 @@
               </div>
             </div>
 
+            <div  class="ml-1 mr-2" style="max-width: 100%">
+              <div class="row">
+                <div class="card ml-3 mr-3" style="background:#C2C5C2;">
+                  <div class="card-body ">
+                    <div class="row">
+                      <!--columanas 1-->
+                      <div class="ml-3 mr-3">
+                        <h2>¿Héroes silenciosos o silenciados? Realidad de los trabajadores sanitarios en el Perú y el mundo</h2>
+                        <h5>Martha Zevallos Alvites</h5>
+                        <img src="../imagenes/actualidad/mundo/zevallos/cover.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                      </div>
+                      <!--columanas 2-->
+                      <div class="col-sm">
+                        <div class="card-body ">
+                          <br>
+                          <p>
+                            En estos meses de pandemia el mundo ha reconocido la loable labor del personal sanitario, héroes anónimos que han trabajado en silencio para garantizarnos vías públicas seguras y libres de contagio. Hasta hace unas semanas, los limeños saludábamos su valor cada noche con aplausos desde nuestras ventanas y balcones. Sin embargo, la situación de los trabajadores de limpieza no es la ideal.
+                          </p>
+                          <a href="../actualidad/mundo_zevallos.php"  class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         <br>
       </div>
