@@ -182,6 +182,33 @@
               </div>
             </div>
 
+            <div  class="ml-1 mr-2" style="max-width: 100%">
+              <div class="row">
+                <div class="card ml-3 mr-3" style="background:#C2C5C2;">
+                  <div class="card-body ">
+                    <div class="row">
+                      <!--columanas 1-->
+                      <div class="ml-3 mr-3">
+                        <h2>¿QUÉ SON LAS ZONAS VERDES PRESENTES EN LA ANTÁRTIDA?</h2>
+                        <h5>María Palomino Velasquez</h5>
+                        <img src="../imagenes/actualidad/mundo/palomino/cover.png" class="card-img" alt="" style="max-height:100%; max-width:100%;">
+                      </div>
+                      <!--columanas 2-->
+                      <div class="col-sm">
+                        <div class="card-body ">
+                          <br>
+                          <p>
+                            Hace unas semanas, la investigación de un grupo de científicos de la Universidad de Cambridge y British Antarctic Survey, fue publicado en The Journal Nature Communications, la cual fue muy comentada debido a que presentaban el primer mapeo de zonas verdes en la Antártida, de esta forma daban a conocer una aproximación de la biomasa y la forma en cómo están distribuidas las coloraciones verdes1,2.
+                          </p>
+                          <a href="../actualidad/mundo_palomino.php"  class="btn btn-default" style="background:#CCCCCC;">Leer más...</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         <br>
       </div>
