@@ -17,11 +17,7 @@
                                 <h2>IMPORTANCIA DE LA INNOVACIÓN Y DIVULGACIÓN CIENTÍFICA EN TIEMPOS DE PANDEMIA</h2>
                                 
                                 <p>
-                                Gustavo Calleja es Biólogo egresado de la Universidad Nacional Mayor de San Marcos codirector de operaciones
-                                de Anka Innovations, empresa de transformación digital, docente de emprendimiento y herramientas ágiles en el 
-                                instituto CERTUS, candidato a Magister en Gestión de la Innovación Tecnológica por la PUCP con quién discutiremos 
-                                sobre diversas maneras de transmitir información científica a través de las redes sociales, su importancia en esta 
-                                época de pandemia y las problemáticas que se presentan
+                                Gustavo Calleja es Biólogo egresado de la Universidad Nacional Mayor de San Marcos codirector de operaciones de Anka Innovations, empresa de transformación digital, docente de emprendimiento y herramientas ágiles en el instituto CERTUS, candidato a Magister en Gestión de la Innovación Tecnológica por la PUCP con quién discutiremos sobre diversas maneras de transmitir información científica a través de las redes sociales, su importancia en esta época de pandemia y las problemáticas que se presentan
                                 </p>
                                 <img src="../imagenes/entrevistas/herrera/img3.jpg" style="max-height :100%; max-width:100%; margin: auto; display:block; padding:20px 0px 20px 0px;">
                                 <br>
@@ -30,9 +26,11 @@
                                     la invitación. Para   iniciar   con   la   entrevista   vamos   a   empezar   tocando   
                                     ciertos conceptos.
                                 <br>
+
+                                <p style="font-weight: bolder;">     
                                     Como primera pregunta ¿Qué es la innovación y qué es la divulgación científica? 
                                     ¿De qué manera estos están estrechamente relacionadas?
-                                <br>
+                                </p>
                                     La innovación es un tema bastante subjetivo, hace unos días veía la publicación 
                                     de una de las personas que fue un mentor mío que mencionaba sobre una especie de 
                                     “innovación” que se estaba haciendo en una empresa de gas, y ellos decían que 
